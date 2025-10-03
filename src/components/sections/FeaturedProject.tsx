@@ -46,7 +46,7 @@ const FeaturedProject = () => {
                 href={FEATURED_PROJECT.sourceUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 flex items-center gap-2"
+                className="bg-white/10 backdrop-blur-sm text-white border border-white/20 px-6 py-3 rounded-lg font-semibold hover:bg-white/20 hover:border-white/30 transition-all duration-300 flex items-center gap-2 hover:scale-105"
               >
                 <Code2 size={20} />
                 Check source code

@@ -24,7 +24,7 @@ const SideProjects = () => {
             </p>
             <button
               onClick={() => scrollToSection("contact")}
-              className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 inline-flex items-center gap-3"
+              className="bg-white/10 backdrop-blur-sm text-white border border-white/20 px-8 py-4 rounded-lg font-semibold hover:bg-white/20 hover:border-white/30 transition-all duration-300 inline-flex items-center gap-3 hover:scale-105"
             >
               Take Me There
               <ArrowRight size={20} />
