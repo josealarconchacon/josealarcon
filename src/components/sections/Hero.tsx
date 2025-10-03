@@ -23,8 +23,8 @@ const Hero = () => {
           </div>
 
           <button
-            onClick={() => scrollToSection("side-projects")}
-            className="group bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 flex items-center gap-3 hover:gap-4"
+            onClick={() => scrollToSection("projects")}
+            className="group bg-white/10 backdrop-blur-sm text-white border border-white/20 px-8 py-4 rounded-lg font-semibold hover:bg-white/20 hover:border-white/30 transition-all duration-300 flex items-center gap-3 hover:gap-4 hover:scale-105"
           >
             <span>EXPLORE MY WORK</span>
             <ArrowRight
