@@ -46,10 +46,15 @@ const Skills = () => {
             <h2 className="text-4xl sm:text-5xl font-bold text-white">
               Skills & Expertise
             </h2>
-            <button className="bg-white/10 backdrop-blur-sm text-white border border-white/20 px-6 py-3 rounded-lg font-semibold hover:bg-white/20 hover:border-white/30 transition-all duration-300 flex items-center gap-2 hover:scale-105">
+            <a
+              href="/Jose_Alarcon_Chacon_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/10 backdrop-blur-sm text-white border border-white/20 px-6 py-3 rounded-lg font-semibold hover:bg-white/20 hover:border-white/30 transition-all duration-300 flex items-center gap-2 hover:scale-105"
+            >
               <Download size={18} />
               Download Resume
-            </button>
+            </a>
           </div>
         </div>
 

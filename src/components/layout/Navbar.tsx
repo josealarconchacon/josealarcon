@@ -25,11 +25,16 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center gap-8">
-            <button className="text-gray-300 hover:text-white transition-all duration-300 relative group text-sm font-medium flex items-center gap-2">
+            <a
+              href="/Jose_Alarcon_Chacon_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-white transition-all duration-300 relative group text-sm font-medium flex items-center gap-2"
+            >
               <Download size={16} />
               Resume
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-cyan-600 group-hover:w-full transition-all duration-300" />
-            </button>
+            </a>
             {NAV_ITEMS.map((item) => (
               <button
                 key={item.id}
@@ -54,10 +59,15 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-black/95 backdrop-blur-xl border-t border-gray-800/50 animate-fadeIn">
           <div className="px-4 py-4 space-y-2">
-            <button className="block w-full text-left px-4 py-3 text-gray-300 hover:text-white hover:bg-gray-800/50 rounded-lg transition-all flex items-center gap-2">
+            <a
+              href="/Jose_Alarcon_Chacon_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full text-left px-4 py-3 text-gray-300 hover:text-white hover:bg-gray-800/50 rounded-lg transition-all flex items-center gap-2"
+            >
               <Download size={16} />
               Resume
-            </button>
+            </a>
             {NAV_ITEMS.map((item) => (
               <button
                 key={item.id}
